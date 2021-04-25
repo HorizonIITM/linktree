@@ -1,0 +1,10 @@
+body {
+    background: #282828;
+    color: #ebdbb2;
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
