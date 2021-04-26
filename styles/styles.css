@@ -1,10 +1,59 @@
+:root {
+    --BG0    : #282828;
+    --BG1    : #3c3836;
+    --BG2    : #504945;
+    --BG3    : #665c54;
+    --BG4    : #7c6f64;
+    --GRAY   : #928374;
+    --FG4    : #a89984;
+    --FG3    : #bdae93;
+    --FG2    : #d5c4a1;
+    --FG1    : #ebdbb2;
+    --FG0    : #fbf1c7;
+    --RED    : #fb4934;
+    --ORANGE : #fe8019;
+    --YELLOW : #fabd2f;
+    --GREEN  : #b8bb26;
+    --AQUA   : #8ec07c;
+    --BLUE   : #83a598;
+    --PURPLE : #d3869b;
+    --dRED   : #cc341d;
+    --dORANGE: #d65d0e;
+    --dYELLOW: #d79921;
+    --dGREEN : #98971a;
+    --dAQUA  : #689d6a;
+    --dBLUE  : #458588;
+    --dPURPLE: #b16286;
+}
+
+html {
+    background-color: var(--BG0);
+    color           : var(--FG1);
+    font-family     : monospace;
+}
+
 body {
-    background: #282828;
-    color: #ebdbb2;
-    font-family: monospace;
+    width     : 75%;
+    margin    : 10%;
+    background: var(--BG1);
+    padding   : 30px;
 }
 
 h1 {
-    font-size: 60px;
-    text-align: center;
+    font-size  : 100px;
+    font-weight: bold;
+    color      : var(--dAQUA);
+    text-align : center;
+    line-height: 0.2;
+}
+
+h1.subtitle {
+    font-size  : 40px;
+    font-weight: normal;
+    color      : var(--FG3);
+    text-align : center;
+}
+
+strong {
+    color: var(--FG1);
 }
