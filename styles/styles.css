@@ -52,6 +52,7 @@ h1.subtitle {
     font-weight: normal;
     color      : var(--FG3);
     text-align : center;
+    line-height: 1;
 }
 
 strong {
