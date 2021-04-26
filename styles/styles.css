@@ -29,7 +29,7 @@
 html {
     background-color: var(--BG0);
     color           : var(--FG1);
-    font-family     : monospace;
+    font-family     : "Fira Sans", sans-serif;
 }
 
 body {
@@ -44,7 +44,7 @@ h1 {
     font-weight: bold;
     color      : var(--dAQUA);
     text-align : center;
-    line-height: 0.2;
+    margin     : 0;
 }
 
 h1.subtitle {
@@ -52,7 +52,6 @@ h1.subtitle {
     font-weight: normal;
     color      : var(--FG3);
     text-align : center;
-    line-height: 1;
 }
 
 strong {
