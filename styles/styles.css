@@ -33,15 +33,15 @@ html {
 }
 
 body {
-    width     : 75%;
-    margin    : 10%;
+    width     : auto;
+    margin    : 5%;
     background: var(--BG1);
-    padding   : 30px;
+    padding   : 20px 0 30px 0;
 }
 
 h1 {
     font-size  : 100px;
-    font-weight: bold;
+    font-weight: 900;
     color      : var(--dAQUA);
     text-align : center;
     margin     : 0;
@@ -49,11 +49,39 @@ h1 {
 
 h1.subtitle {
     font-size  : 40px;
-    font-weight: normal;
+    font-weight: 400;
     color      : var(--FG3);
     text-align : center;
 }
 
 strong {
-    color: var(--FG1);
+    color      : var(--FG1);
+    font-weight: 700;
+}
+
+.links {
+    font-size       : 25px;
+    font-weight     : 600;
+    color           : var(--BG2);
+    text-align      : center;
+    margin-top      : 20px;
+    padding         : 20px;
+    border          : 1px solid var(--FG3);
+    background-color: var(--FG3);
+    border-width    : 2px;
+    width           : 50%;
+    display         : block;
+    margin-left     : auto;
+    margin-right    : auto;
+}
+
+a {
+    text-decoration           : none;
+    transition                : color 0.25s, background 0.25s;
+    transition-timing-function: ease-in-out;
+}
+
+a:hover {
+    color     : var(--FG3);
+    background: var(--BG1);
 }
