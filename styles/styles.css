@@ -33,10 +33,15 @@ html {
 }
 
 body {
-    width     : auto;
-    margin    : 5%;
+    width  : auto;
+    margin : 0 5% 0 5%;
+    padding: 20px 0 30px 0;
+}
+
+.second-body {
     background: var(--BG1);
-    padding   : 20px 0 30px 0;
+    margin    : 50px;
+    padding   : 50px;
 }
 
 h1 {
@@ -55,8 +60,9 @@ h1.subtitle {
 }
 
 strong {
-    color      : var(--FG1);
-    font-weight: 700;
+    color          : var(--FG1);
+    font-weight    : 700;
+    text-decoration: none;
 }
 
 .links {
@@ -68,7 +74,7 @@ strong {
     padding         : 20px;
     border          : 1px solid var(--FG3);
     background-color: var(--FG3);
-    border-width    : 2px;
+    border-width    : 5px;
     width           : 50%;
     display         : block;
     margin-left     : auto;
